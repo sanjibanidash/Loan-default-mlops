@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+
+# Monitoring
+monitoring_reports/
+
+# CatBoost
+catboost_info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Environment/secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
